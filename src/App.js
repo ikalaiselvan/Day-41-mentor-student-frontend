@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<h2 style={{"color":"green"}}>Welcome to Mentor and student assign app</h2>}
+          element={<h1 style={{"color":"green", "justifyContent": "center","text-align": "center", "display": "flex", "height": "100vh", "alignItems": "center"}}>Welcome to Mentor and student assign app</h1>}
         />
         <Route path="/mentor" element={<CreateMentor />} />
         <Route path="/student" element={<CreateStudent />} />
