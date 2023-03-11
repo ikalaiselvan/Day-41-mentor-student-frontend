@@ -12,7 +12,7 @@ function ShowStudentForMentor() {
     try {
       event.preventDefault();
       const response = await axios.post(
-        `http://localhost:4000/API/show-students`,
+        `https://day-41-mentor-student-backend-production.up.railway.app/API/show-students`,
         student,
         { withCredentials: true }
       );

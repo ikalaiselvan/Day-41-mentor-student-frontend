@@ -17,7 +17,7 @@ function AssignMentorForStudent() {
     try {
       event.preventDefault();
       const response = await axios.post(
-        `http://localhost:4000/API/assign-mentor`,
+        `https://day-41-mentor-student-backend-production.up.railway.app/API/assign-mentor`,
         student,
         { withCredentials: true }
       );

@@ -34,7 +34,7 @@ function CreateMentor() {
     try {
       event.preventDefault();
       const response = await axios.post(
-        `http://localhost:4000/API/mentor`,
+        `https://day-41-mentor-student-backend-production.up.railway.app/API/mentor`,
         mentor,
         { withCredentials: true }
       );

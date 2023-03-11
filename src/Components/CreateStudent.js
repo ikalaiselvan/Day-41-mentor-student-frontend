@@ -20,7 +20,7 @@ function CreateStudent() {
     try {
       event.preventDefault();
       const response = await axios.post(
-        `http://localhost:4000/API/student`,
+        `https://day-41-mentor-student-backend-production.up.railway.app/API/student`,
         student,
         { withCredentials: true }
       );
