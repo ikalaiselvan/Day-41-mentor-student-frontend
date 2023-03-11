@@ -13,6 +13,10 @@ function App() {
     <div className="App">
       <Home />
       <Routes>
+        <Route
+          path="/"
+          element={<h2 style={{"color":"green"}}>Welcome to Mentor and student assign app</h2>}
+        />
         <Route path="/mentor" element={<CreateMentor />} />
         <Route path="/student" element={<CreateStudent />} />
         <Route path="/assign-student" element={<AssignStudentToMentor />} />
